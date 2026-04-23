@@ -1,0 +1,186 @@
+{
+  "root": {
+    "children": [
+      {
+        "type": "animation",
+        "version": 1,
+        "__presets": [],
+        "__customKeyframes": {
+          "bgColorCycle": "@keyframes bgColorCycle { 0% { background-color: #4f46e5; } 25% { background-color: #db2777; } 50% { background-color: #ea580c; } 75% { background-color: #16a34a; } 100% { background-color: #4f46e5; } }"
+        }
+      },
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "detail": 0,
+                "format": 0,
+                "mode": "normal",
+                "style": "",
+                "text": "",
+                "type": "heading",
+                "version": 1,
+                "__css": {
+                  "__className": "pHeading03",
+                  "__externalClassNames": "",
+                  "__styles": {
+                    "desktop": {
+                      "color": "#ffffff",
+                      "fontSize": "32px",
+                      "fontWeight": "700",
+                      "textAlign": "center",
+                      "paddingTop": "20px",
+                      "paddingBottom": "20px",
+                      "paddingLeft": "20px",
+                      "paddingRight": "20px"
+                    }
+                  },
+                  "__stylesStates": {},
+                  "__classNameEditor": "__editor_2ami1",
+                  "__debugClassNameEditor": "__editor_debug_lamw6g",
+                  "__stylesEditor": {
+                    "backgroundColor": "none"
+                  }
+                },
+                "__attributes": {},
+                "__dynamicAttributes": {
+                  "__rules": []
+                },
+                "__template": "Demo"
+              }
+            ],
+            "direction": null,
+            "format": "",
+            "indent": 0,
+            "type": "wrapper",
+            "version": 1,
+            "__css": {
+              "__className": "pSection03",
+              "__externalClassNames": "",
+              "__styles": {
+                "desktop": {
+                  "width": "200px",
+                  "__layout": {
+                    "display": "flex",
+                    "justifyContent": "center",
+                    "alignItems": "center"
+                  },
+                  "__backgroundGlobal": {
+                    "$backgroundColor": "#4f46e5"
+                  },
+                  "background": ["#4f46e5"],
+                  "__animation": [
+                    {
+                      "$keyframeName": "bgColorCycle",
+                      "$type": "custom",
+                      "$id": "rule-bg03-load",
+                      "$triggerEvent": "load",
+                      "$targetElement": "",
+                      "$duration": "3000ms",
+                      "$timingFunction": "linear",
+                      "$delay": "0ms",
+                      "$iterationCount": "infinite",
+                      "$direction": "normal",
+                      "$fillMode": "forwards",
+                      "$playState": "running"
+                    }
+                  ],
+                  "height": "100px"
+                }
+              },
+              "__stylesStates": {},
+              "__classNameEditor": "__editor_a94gb",
+              "__debugClassNameEditor": "__editor_debug_i5lix",
+              "__stylesEditor": {
+                "backgroundColor": "none"
+              }
+            },
+            "__attributes": {},
+            "__dynamicAttributes": {
+              "__rules": []
+            }
+          }
+        ],
+        "direction": null,
+        "format": "",
+        "indent": 0,
+        "type": "body",
+        "version": 1,
+        "__css": {
+          "__className": "pBody03",
+          "__externalClassNames": "",
+          "__styles": {
+            "desktop": {
+              "__layout": {
+                "display": "flex",
+                "flexDirection": "column",
+                "justifyContent": "center",
+                "alignItems": "center"
+              },
+              "minHeight": "300px",
+              "fontFamily": "Inter, sans-serif"
+            }
+          },
+          "__stylesStates": {},
+          "__classNameEditor": "__editor_o9dvc4",
+          "__debugClassNameEditor": "__editor_debug_z2rpy",
+          "__stylesEditor": {
+            "width": "100%",
+            "height": "100%",
+            "backgroundColor": "none"
+          }
+        },
+        "__attributes": {},
+        "__dynamicAttributes": {
+          "__rules": []
+        }
+      },
+      {
+        "type": "googlefont",
+        "version": 1,
+        "fonts": {
+          "Roboto": {
+            "fontWeight": [400],
+            "fontStyle": ["normal"]
+          },
+          "Open Sans": {
+            "fontWeight": [400],
+            "fontStyle": ["normal"]
+          }
+        }
+      },
+      {
+        "type": "customfonts-data",
+        "name": "name-40",
+        "ID": 65974,
+        "allowedQueryPassthroughKeys": [],
+        "version": 1
+      },
+      {
+        "type": "cssvariables-data",
+        "name": "name-45",
+        "ID": 26939,
+        "allowedQueryPassthroughKeys": [],
+        "version": 1
+      },
+      {
+        "type": "custom-code",
+        "version": 1,
+        "__slugs": {
+          "header": [],
+          "footer": []
+        }
+      },
+      {
+        "type": "cache",
+        "version": 1
+      }
+    ],
+    "direction": null,
+    "format": "",
+    "indent": 0,
+    "type": "root",
+    "version": 1
+  }
+}

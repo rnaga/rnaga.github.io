@@ -1,0 +1,122 @@
+{
+  "root": {
+    "type": "root",
+    "version": 1,
+    "direction": null,
+    "format": "",
+    "indent": 0,
+    "children": [
+      {
+        "type": "animation",
+        "version": 1,
+        "__presets": [],
+        "__customKeyframes": {
+          "magneticLift": "@keyframes magneticLift { 0% { transform: translateY(0) scale(1); filter: brightness(1); } 35% { transform: translateY(-14px) scale(1.07); filter: brightness(1.2); } 65% { transform: translateY(-11px) scale(1.05); filter: brightness(1.15); } 82% { transform: translateY(-13px) scale(1.06); } 100% { transform: translateY(-12px) scale(1.055); filter: brightness(1.18); } }",
+          "glowRingPulse": "@keyframes glowRingPulse { 0% { opacity: 0; transform: scale(0.92); filter: blur(4px); } 50% { opacity: 1; transform: scale(1.06); filter: blur(6px); } 100% { opacity: 0.8; transform: scale(1.03); filter: blur(5px); } }"
+        }
+      },
+      {
+        "type": "body",
+        "version": 1,
+        "direction": null,
+        "format": "",
+        "indent": 0,
+        "__css": {
+          "__className": "pBody01",
+          "__externalClassNames": "",
+          "__styles": {
+            "desktop": {
+              "__layout": {
+                "display": "flex",
+                "justifyContent": "center",
+                "alignItems": "center"
+              },
+              "minHeight": "240px",
+              "__backgroundGlobal": {
+                "$backgroundColor": "#0f0e17"
+              },
+              "background": ["#0f0e17"]
+            }
+          },
+          "__stylesStates": {}
+        },
+        "__attributes": {},
+        "__dynamicAttributes": {},
+        "children": [
+          {
+            "type": "button-link",
+            "version": 1,
+            "__href": "#",
+            "__label": "Hover Me",
+            "__target": "_self",
+            "__css": {
+              "__className": "pBtn01",
+              "__externalClassNames": "",
+              "__styles": {
+                "desktop": {
+                  "display": "inline-block",
+                  "position": "relative",
+                  "padding": "16px 40px",
+                  "fontSize": "17px",
+                  "fontWeight": "700",
+                  "color": "#ffffff",
+                  "borderRadius": "12px",
+                  "cursor": "pointer",
+                  "border": "none",
+                  "letterSpacing": "0.5px",
+                  "zIndex": "0",
+                  "__backgroundGlobal": {
+                    "$backgroundColor": "#4f46e5"
+                  },
+                  "background": ["#4f46e5"],
+                  "__animation": [
+                    {
+                      "$id": "rule-btn01-hover-lift",
+                      "$type": "custom",
+                      "$keyframeName": "magneticLift",
+                      "$triggerEvent": "hover",
+                      "$targetElement": "",
+                      "$duration": "700ms",
+                      "$timingFunction": "cubic-bezier(0.34,1.56,0.64,1)",
+                      "$delay": "0ms",
+                      "$iterationCount": "1",
+                      "$direction": "normal",
+                      "$fillMode": "forwards",
+                      "$playState": "running"
+                    },
+                    {
+                      "$id": "rule-btn01-hover-glow",
+                      "$type": "custom",
+                      "$keyframeName": "glowRingPulse",
+                      "$triggerEvent": "hover",
+                      "$targetElement": "",
+                      "$pseudoElement": "::after",
+                      "$customProperties": {
+                        "content": "\"\"",
+                        "position": "absolute",
+                        "inset": "-6px",
+                        "border-radius": "16px",
+                        "z-index": "-1",
+                        "background": "linear-gradient(135deg, #7c3aed, #ec4899, #f59e0b, #06b6d4)"
+                      },
+                      "$duration": "900ms",
+                      "$timingFunction": "ease-in-out",
+                      "$delay": "0ms",
+                      "$iterationCount": "infinite",
+                      "$direction": "alternate",
+                      "$fillMode": "both",
+                      "$playState": "running"
+                    }
+                  ]
+                }
+              },
+              "__stylesStates": {}
+            },
+            "__attributes": {},
+            "__dynamicAttributes": {}
+          }
+        ]
+      }
+    ]
+  }
+}

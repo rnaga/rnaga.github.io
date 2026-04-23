@@ -1,0 +1,184 @@
+{
+  "root": {
+    "children": [
+      {
+        "type": "animation",
+        "version": 1,
+        "__presets": [],
+        "__customKeyframes": {
+          "riseFromFog": "@keyframes riseFromFog { 0% { opacity: 0; transform: translateY(30px) scale(0.92); filter: blur(8px); } 60% { opacity: 1; transform: translateY(-4px) scale(1.03); filter: blur(0px); } 80% { transform: translateY(2px) scale(0.99); } 100% { opacity: 1; transform: translateY(0) scale(1); filter: blur(0px); } }",
+          "shimmerPulse": "@keyframes shimmerPulse { 0% { opacity: 0; transform: translateX(-100%) skewX(-20deg); } 50% { opacity: 0.6; } 100% { opacity: 0; transform: translateX(200%) skewX(-20deg); } }"
+        }
+      },
+      {
+        "children": [
+          {
+            "detail": 0,
+            "format": 0,
+            "mode": "normal",
+            "style": "",
+            "text": "",
+            "type": "button-link",
+            "version": 1,
+            "__css": {
+              "__className": "pBtn04",
+              "__externalClassNames": "",
+              "__styles": {
+                "desktop": {
+                  "display": "inline-block",
+                  "position": "relative",
+                  "overflow": "hidden",
+                  "padding": "16px 40px",
+                  "fontSize": "18px",
+                  "fontWeight": "700",
+                  "color": "#0f172a",
+                  "borderRadius": "8px",
+                  "cursor": "pointer",
+                  "border": "none",
+                  "__backgroundGlobal": {
+                    "$backgroundColor": "#fbbf24"
+                  },
+                  "background": ["#fbbf24"],
+                  "__animation": [
+                    {
+                      "$keyframeName": "riseFromFog",
+                      "$type": "custom",
+                      "$id": "rule-btn04-load-rise",
+                      "$triggerEvent": "load",
+                      "$targetElement": "",
+                      "$duration": "900ms",
+                      "$timingFunction": "cubic-bezier(0.22,1,0.36,1)",
+                      "$delay": "300ms",
+                      "$iterationCount": "1",
+                      "$direction": "normal",
+                      "$fillMode": "both",
+                      "$playState": "running"
+                    },
+                    {
+                      "$keyframeName": "shimmerPulse",
+                      "$type": "custom",
+                      "$id": "rule-btn04-hover-shimmer",
+                      "$triggerEvent": "hover",
+                      "$targetElement": "",
+                      "$pseudoElement": "::after",
+                      "$customProperties": {
+                        "content": "\"\"",
+                        "position": "absolute",
+                        "top": "0",
+                        "left": "0",
+                        "width": "60%",
+                        "height": "100%",
+                        "background": "linear-gradient(90deg, transparent, rgba(255,255,255,0.6), transparent)",
+                        "pointer-events": "none"
+                      },
+                      "$duration": "700ms",
+                      "$timingFunction": "ease",
+                      "$delay": "0ms",
+                      "$iterationCount": "infinite",
+                      "$direction": "normal",
+                      "$fillMode": "none",
+                      "$playState": "running"
+                    }
+                  ]
+                }
+              },
+              "__stylesStates": {},
+              "__classNameEditor": "__editor_r1aon",
+              "__debugClassNameEditor": "__editor_debug_nl9bi",
+              "__stylesEditor": {
+                "backgroundColor": "none"
+              }
+            },
+            "__attributes": {},
+            "__dynamicAttributes": {
+              "__rules": []
+            },
+            "__href": "#",
+            "__target": "_self",
+            "__label": "Get Started"
+          }
+        ],
+        "direction": null,
+        "format": "",
+        "indent": 0,
+        "type": "body",
+        "version": 1,
+        "__css": {
+          "__className": "pBody04",
+          "__externalClassNames": "",
+          "__styles": {
+            "desktop": {
+              "__layout": {
+                "display": "flex",
+                "justifyContent": "center",
+                "alignItems": "center"
+              },
+              "minHeight": "240px",
+              "__backgroundGlobal": {
+                "$backgroundColor": "#0f172a"
+              },
+              "background": ["#0f172a"]
+            }
+          },
+          "__stylesStates": {},
+          "__classNameEditor": "__editor_surfkn",
+          "__debugClassNameEditor": "__editor_debug_0e5eqs",
+          "__stylesEditor": {
+            "width": "100%",
+            "height": "100%",
+            "backgroundColor": "none"
+          }
+        },
+        "__attributes": {},
+        "__dynamicAttributes": {
+          "__rules": []
+        }
+      },
+      {
+        "type": "googlefont",
+        "version": 1,
+        "fonts": {
+          "Roboto": {
+            "fontWeight": [400],
+            "fontStyle": ["normal"]
+          },
+          "Open Sans": {
+            "fontWeight": [400],
+            "fontStyle": ["normal"]
+          }
+        }
+      },
+      {
+        "type": "customfonts-data",
+        "name": "name-74",
+        "ID": 87933,
+        "allowedQueryPassthroughKeys": [],
+        "version": 1
+      },
+      {
+        "type": "cssvariables-data",
+        "name": "name-95",
+        "ID": 50988,
+        "allowedQueryPassthroughKeys": [],
+        "version": 1
+      },
+      {
+        "type": "custom-code",
+        "version": 1,
+        "__slugs": {
+          "header": [],
+          "footer": []
+        }
+      },
+      {
+        "type": "cache",
+        "version": 1
+      }
+    ],
+    "direction": null,
+    "format": "",
+    "indent": 0,
+    "type": "root",
+    "version": 1
+  }
+}

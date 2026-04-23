@@ -1,0 +1,97 @@
+{
+  "root": {
+    "type": "root",
+    "version": 1,
+    "direction": null,
+    "format": "",
+    "indent": 0,
+    "children": [
+      {
+        "type": "animation",
+        "version": 1,
+        "__presets": [],
+        "__customKeyframes": {
+          "explosionPop": "@keyframes explosionPop { 0% { transform: scale(1) rotate(0deg); filter: brightness(1); } 12% { transform: scale(0.78) rotate(-6deg); filter: brightness(0.9); } 28% { transform: scale(1.35) rotate(5deg); filter: brightness(1.25); } 42% { transform: scale(0.88) rotate(-4deg); filter: brightness(1.1); } 56% { transform: scale(1.22) rotate(3deg); filter: brightness(1.2); } 70% { transform: scale(0.94) rotate(-1.5deg); filter: brightness(1.05); } 84% { transform: scale(1.1) rotate(0.5deg); } 92% { transform: scale(0.98) rotate(0deg); } 100% { transform: scale(1) rotate(0deg); filter: brightness(1); } }"
+        }
+      },
+      {
+        "type": "body",
+        "version": 1,
+        "direction": null,
+        "format": "",
+        "indent": 0,
+        "__css": {
+          "__className": "pBody02",
+          "__externalClassNames": "",
+          "__styles": {
+            "desktop": {
+              "__layout": {
+                "display": "flex",
+                "justifyContent": "center",
+                "alignItems": "center"
+              },
+              "minHeight": "240px",
+              "__backgroundGlobal": {
+                "$backgroundColor": "#052e16"
+              },
+              "background": ["#052e16"]
+            }
+          },
+          "__stylesStates": {}
+        },
+        "__attributes": {},
+        "__dynamicAttributes": {},
+        "children": [
+          {
+            "type": "button-link",
+            "version": 1,
+            "__href": "#",
+            "__label": "Click Me!",
+            "__target": "_self",
+            "__css": {
+              "__className": "pBtn02",
+              "__externalClassNames": "",
+              "__styles": {
+                "desktop": {
+                  "display": "inline-block",
+                  "padding": "16px 40px",
+                  "fontSize": "17px",
+                  "fontWeight": "700",
+                  "color": "#ffffff",
+                  "borderRadius": "50px",
+                  "cursor": "pointer",
+                  "border": "none",
+                  "letterSpacing": "1px",
+                  "textTransform": "uppercase",
+                  "__backgroundGlobal": {
+                    "$backgroundColor": "#16a34a"
+                  },
+                  "background": ["#16a34a"],
+                  "__animation": [
+                    {
+                      "$id": "rule-btn02-click",
+                      "$type": "custom",
+                      "$keyframeName": "explosionPop",
+                      "$triggerEvent": "click",
+                      "$targetElement": "",
+                      "$duration": "750ms",
+                      "$timingFunction": "cubic-bezier(0.68,-0.55,0.265,1.55)",
+                      "$delay": "0ms",
+                      "$iterationCount": "1",
+                      "$direction": "normal",
+                      "$fillMode": "none",
+                      "$playState": "running"
+                    }
+                  ]
+                }
+              },
+              "__stylesStates": {}
+            },
+            "__attributes": {},
+            "__dynamicAttributes": {}
+          }
+        ]
+      }
+    ]
+  }
+}
